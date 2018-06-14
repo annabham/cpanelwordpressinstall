@@ -38,7 +38,6 @@ RewriteRule . /index.php [L]
 EOF
 
 # Make sure everything is chowned to the cPanel user
-
 chown -R $CPANEL:$CPANEL $DESTDIR/* $DESTDIR/.*
 
 # Create MySQL db & user
