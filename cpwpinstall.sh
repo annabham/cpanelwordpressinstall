@@ -15,7 +15,7 @@ MYSQLUSER=user_wp1
 # Generate a random pw for the MySQL db user
 MYSQLUSERPASS=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 16 | head -n 1)
 
-#Download and extract the WP tarball, clean it up afterwards
+# Download and extract the WP tarball, clean it up afterwards
 wget -qO-  https://wordpress.org/latest.tar.gz | tar --strip-components=1 -xz -C $DESTDIR
 rm -f $DESTDIR/latest.tar.gz
 
