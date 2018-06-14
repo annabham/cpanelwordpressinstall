@@ -4,7 +4,8 @@
 
 ############################################
 
-# Specify these variables, should be self-explanatory:
+# Modify the example stuff here to the actual variables.
+# Should be self-explanatory.
 DESTDIR=/home/user/public_html
 CPANEL=user
 MYSQLDB=user_wp1
